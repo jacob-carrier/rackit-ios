@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8004CE1A189A7D23004B8D34 /* RIMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004CE19189A7D23004B8D34 /* RIMainMenuViewController.m */; };
+		8004CE1D189AE3E5004B8D34 /* RICoverflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004CE1C189AE3E5004B8D34 /* RICoverflowLayout.m */; };
+		8004CE20189AE478004B8D34 /* RIClosetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004CE1F189AE478004B8D34 /* RIClosetViewController.m */; };
+		8004CE23189AE889004B8D34 /* RICoverflowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004CE22189AE889004B8D34 /* RICoverflowCell.m */; };
+		801CC8EA18E0AF9100575B04 /* RIArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CC8E918E0AF9100575B04 /* RIArticleViewController.m */; };
 		803B3DEB189928F3006AE93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803B3DEA189928F3006AE93D /* Foundation.framework */; };
 		803B3DED189928F3006AE93D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803B3DEC189928F3006AE93D /* CoreGraphics.framework */; };
 		803B3DEF189928F3006AE93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803B3DEE189928F3006AE93D /* UIKit.framework */; };
@@ -14,13 +19,15 @@
 		803B3DF7189928F3006AE93D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B3DF6189928F3006AE93D /* main.m */; };
 		803B3DFB189928F3006AE93D /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B3DFA189928F3006AE93D /* RIAppDelegate.m */; };
 		803B3DFE189928F3006AE93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803B3DFC189928F3006AE93D /* Main.storyboard */; };
-		803B3E01189928F3006AE93D /* RIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B3E00189928F3006AE93D /* RIViewController.m */; };
+		803B3E01189928F3006AE93D /* RILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B3E00189928F3006AE93D /* RILoginViewController.m */; };
 		803B3E03189928F3006AE93D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803B3E02189928F3006AE93D /* Images.xcassets */; };
 		803B3E0A189928F3006AE93D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803B3E09189928F3006AE93D /* XCTest.framework */; };
 		803B3E0B189928F3006AE93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803B3DEA189928F3006AE93D /* Foundation.framework */; };
 		803B3E0C189928F3006AE93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803B3DEE189928F3006AE93D /* UIKit.framework */; };
 		803B3E14189928F3006AE93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 803B3E12189928F3006AE93D /* InfoPlist.strings */; };
 		803B3E16189928F3006AE93D /* Rack_It_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B3E15189928F3006AE93D /* Rack_It_Tests.m */; };
+		807EEDE318A2B4A50068E758 /* RIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 807EEDE218A2B4A50068E758 /* RIUser.m */; };
+		80C82BC7189A5FBF0003897F /* RISignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C82BC5189A5FBF0003897F /* RISignupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8004CE18189A7D23004B8D34 /* RIMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIMainMenuViewController.h; sourceTree = "<group>"; };
+		8004CE19189A7D23004B8D34 /* RIMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIMainMenuViewController.m; sourceTree = "<group>"; };
+		8004CE1B189AE3E5004B8D34 /* RICoverflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RICoverflowLayout.h; sourceTree = "<group>"; };
+		8004CE1C189AE3E5004B8D34 /* RICoverflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RICoverflowLayout.m; sourceTree = "<group>"; };
+		8004CE1E189AE478004B8D34 /* RIClosetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIClosetViewController.h; sourceTree = "<group>"; };
+		8004CE1F189AE478004B8D34 /* RIClosetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIClosetViewController.m; sourceTree = "<group>"; };
+		8004CE21189AE889004B8D34 /* RICoverflowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RICoverflowCell.h; sourceTree = "<group>"; };
+		8004CE22189AE889004B8D34 /* RICoverflowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RICoverflowCell.m; sourceTree = "<group>"; };
+		801CC8E818E0AF9100575B04 /* RIArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIArticleViewController.h; sourceTree = "<group>"; };
+		801CC8E918E0AF9100575B04 /* RIArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIArticleViewController.m; sourceTree = "<group>"; };
+		80240EDD18B2A4B8007CF3DC /* RILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RILoginViewController.h; sourceTree = "<group>"; };
 		803B3DE7189928F3006AE93D /* Rack It!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rack It!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		803B3DEA189928F3006AE93D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		803B3DEC189928F3006AE93D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +63,17 @@
 		803B3DF9189928F3006AE93D /* RIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIAppDelegate.h; sourceTree = "<group>"; };
 		803B3DFA189928F3006AE93D /* RIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIAppDelegate.m; sourceTree = "<group>"; };
 		803B3DFD189928F3006AE93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		803B3DFF189928F3006AE93D /* RIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIViewController.h; sourceTree = "<group>"; };
-		803B3E00189928F3006AE93D /* RIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIViewController.m; sourceTree = "<group>"; };
+		803B3E00189928F3006AE93D /* RILoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RILoginViewController.m; sourceTree = "<group>"; };
 		803B3E02189928F3006AE93D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		803B3E08189928F3006AE93D /* Rack It!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rack It!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		803B3E09189928F3006AE93D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		803B3E11189928F3006AE93D /* Rack It!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rack It!Tests-Info.plist"; sourceTree = "<group>"; };
 		803B3E13189928F3006AE93D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		803B3E15189928F3006AE93D /* Rack_It_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rack_It_Tests.m; sourceTree = "<group>"; };
+		807EEDE118A2B4A50068E758 /* RIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIUser.h; sourceTree = "<group>"; };
+		807EEDE218A2B4A50068E758 /* RIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIUser.m; sourceTree = "<group>"; };
+		80C82BC4189A5FBF0003897F /* RISignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RISignupViewController.h; sourceTree = "<group>"; };
+		80C82BC5189A5FBF0003897F /* RISignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RISignupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8004CE2418A01179004B8D34 /* Closet */ = {
+			isa = PBXGroup;
+			children = (
+				8004CE1B189AE3E5004B8D34 /* RICoverflowLayout.h */,
+				8004CE1C189AE3E5004B8D34 /* RICoverflowLayout.m */,
+				8004CE1E189AE478004B8D34 /* RIClosetViewController.h */,
+				8004CE1F189AE478004B8D34 /* RIClosetViewController.m */,
+				8004CE21189AE889004B8D34 /* RICoverflowCell.h */,
+				8004CE22189AE889004B8D34 /* RICoverflowCell.m */,
+			);
+			name = Closet;
+			sourceTree = "<group>";
+		};
 		803B3DDE189928F3006AE93D = {
 			isa = PBXGroup;
 			children = (
@@ -112,13 +146,21 @@
 		803B3DF0189928F3006AE93D /* Rack It! */ = {
 			isa = PBXGroup;
 			children = (
+				807EEDE018A2B4820068E758 /* Classes */,
+				8004CE2418A01179004B8D34 /* Closet */,
 				803B3DF9189928F3006AE93D /* RIAppDelegate.h */,
 				803B3DFA189928F3006AE93D /* RIAppDelegate.m */,
 				803B3DFC189928F3006AE93D /* Main.storyboard */,
-				803B3DFF189928F3006AE93D /* RIViewController.h */,
-				803B3E00189928F3006AE93D /* RIViewController.m */,
+				801CC8E818E0AF9100575B04 /* RIArticleViewController.h */,
+				801CC8E918E0AF9100575B04 /* RIArticleViewController.m */,
+				8004CE18189A7D23004B8D34 /* RIMainMenuViewController.h */,
+				8004CE19189A7D23004B8D34 /* RIMainMenuViewController.m */,
+				80240EDD18B2A4B8007CF3DC /* RILoginViewController.h */,
+				803B3E00189928F3006AE93D /* RILoginViewController.m */,
 				803B3E02189928F3006AE93D /* Images.xcassets */,
 				803B3DF1189928F3006AE93D /* Supporting Files */,
+				80C82BC4189A5FBF0003897F /* RISignupViewController.h */,
+				80C82BC5189A5FBF0003897F /* RISignupViewController.m */,
 			);
 			path = "Rack It!";
 			sourceTree = "<group>";
@@ -150,6 +192,15 @@
 				803B3E12189928F3006AE93D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		807EEDE018A2B4820068E758 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				807EEDE118A2B4A50068E758 /* RIUser.h */,
+				807EEDE218A2B4A50068E758 /* RIUser.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8004CE1D189AE3E5004B8D34 /* RICoverflowLayout.m in Sources */,
+				8004CE1A189A7D23004B8D34 /* RIMainMenuViewController.m in Sources */,
 				803B3DF7189928F3006AE93D /* main.m in Sources */,
 				803B3DFB189928F3006AE93D /* RIAppDelegate.m in Sources */,
-				803B3E01189928F3006AE93D /* RIViewController.m in Sources */,
+				8004CE20189AE478004B8D34 /* RIClosetViewController.m in Sources */,
+				803B3E01189928F3006AE93D /* RILoginViewController.m in Sources */,
+				801CC8EA18E0AF9100575B04 /* RIArticleViewController.m in Sources */,
+				8004CE23189AE889004B8D34 /* RICoverflowCell.m in Sources */,
+				807EEDE318A2B4A50068E758 /* RIUser.m in Sources */,
+				80C82BC7189A5FBF0003897F /* RISignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +441,7 @@
 				GCC_PREFIX_HEADER = "Rack It!/Rack It!-Prefix.pch";
 				INFOPLIST_FILE = "Rack It!/Rack It!-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,6 +455,7 @@
 				GCC_PREFIX_HEADER = "Rack It!/Rack It!-Prefix.pch";
 				INFOPLIST_FILE = "Rack It!/Rack It!-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +521,7 @@
 				803B3E1B189928F3006AE93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		803B3E1C189928F3006AE93D /* Build configuration list for PBXNativeTarget "Rack It!Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +530,7 @@
 				803B3E1E189928F3006AE93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

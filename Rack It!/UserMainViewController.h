@@ -1,5 +1,5 @@
 //
-//  RIViewController.h
+//  UserMainViewController.h
 //  Rack It!
 //
 //  Created by Jacob Lemelin-Carrier on 1/29/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RIViewController : UIViewController
+@interface UserMainViewController : UIViewController
 
 @end
